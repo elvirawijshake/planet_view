@@ -5,7 +5,10 @@
 
   export default defineConfig({
     plugins: [react()],
-    base: '',
+    base: '/planet_view/',
+    build: {
+      outDir: 'docs',
+    },
     resolve: {
       extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
       alias: {
