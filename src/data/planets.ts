@@ -37,8 +37,8 @@ export const planets: Planet[] = [
     distanceFromSun: '57,9 miljoen km',
     diameter: '4.879 km',
     dayLength: '59 aardse dagen',
-    texture: '/src/assets/textures/mercury.jpg',
-    bumpMap: '/src/assets/textures/mercury-bump.jpg',
+    texture: './textures/mercury.jpg',
+    bumpMap: './textures/mercury-bump.jpg',
     facts: [
       { title: 'Afstand tot de zon', value: '57,9 miljoen km' },
       { title: 'Diameter', value: '4.879 km' },
@@ -54,8 +54,8 @@ export const planets: Planet[] = [
     distanceFromSun: '108,2 miljoen km',
     diameter: '12.104 km',
     dayLength: '243 aardse dagen',
-    texture: '/src/assets/textures/venus.jpg',
-    bumpMap: '/src/assets/textures/venus-bump.jpg',
+    texture: './textures/venus.jpg',
+    bumpMap: './textures/venus-bump.jpg',
     facts: [
       { title: 'Afstand tot de zon', value: '108,2 miljoen km' },
       { title: 'Diameter', value: '12.104 km' },
@@ -71,16 +71,16 @@ export const planets: Planet[] = [
     distanceFromSun: '149,6 miljoen km',
     diameter: '12.742 km',
     dayLength: '24 uur',
-    texture: '/src/assets/textures/earth.jpg',
-    bumpMap: '/src/assets/textures/earth-bump.jpg',
-    specularMap: '/src/assets/textures/earth-specular.jpg',
-    cloudsTexture: '/src/assets/textures/earth-clouds.jpg',
-    cloudsAlpha: '/src/assets/textures/earth-clouds-alpha.jpg',
+    texture: './textures/earth.jpg',
+    bumpMap: './textures/earth-bump.jpg',
+    specularMap: './textures/earth-specular.jpg',
+    cloudsTexture: './textures/earth-clouds.jpg',
+    cloudsAlpha: './textures/earth-clouds-alpha.jpg',
     moons: [
       {
         id: 'moon',
         name: 'Maan',
-        texture: '/src/assets/textures/moon.jpg',
+        texture: './textures/moon.jpg',
         size: 0.27,
         orbitRadius: 2.5,
         orbitSpeed: 0.5
@@ -101,8 +101,8 @@ export const planets: Planet[] = [
     distanceFromSun: '227,9 miljoen km',
     diameter: '6.779 km',
     dayLength: '24,6 uur',
-    texture: '/src/assets/textures/mars.jpg',
-    bumpMap: '/src/assets/textures/mars-bump.jpg',
+    texture: './textures/mars.jpg',
+    bumpMap: './textures/mars-bump.jpg',
     facts: [
       { title: 'Afstand tot de zon', value: '227,9 miljoen km' },
       { title: 'Diameter', value: '6.779 km' },
@@ -118,12 +118,12 @@ export const planets: Planet[] = [
     distanceFromSun: '778,5 miljoen km',
     diameter: '139.820 km',
     dayLength: '10 uur',
-    texture: '/src/assets/textures/jupiter.jpg',
+    texture: './textures/jupiter.jpg',
     moons: [
       {
         id: 'io',
         name: 'Io',
-        texture: '/src/assets/textures/io.jpg',
+        texture: './textures/io.jpg',
         size: 0.28,
         orbitRadius: 2.8,
         orbitSpeed: 0.8
@@ -131,7 +131,7 @@ export const planets: Planet[] = [
       {
         id: 'europa',
         name: 'Europa',
-        texture: '/src/assets/textures/europa.jpg',
+        texture: './textures/europa.jpg',
         size: 0.24,
         orbitRadius: 3.2,
         orbitSpeed: 0.6
@@ -139,7 +139,7 @@ export const planets: Planet[] = [
       {
         id: 'ganymede',
         name: 'Ganymedes',
-        texture: '/src/assets/textures/ganymede.jpg',
+        texture: './textures/ganymede.jpg',
         size: 0.41,
         orbitRadius: 3.8,
         orbitSpeed: 0.4
@@ -147,7 +147,7 @@ export const planets: Planet[] = [
       {
         id: 'callisto',
         name: 'Callisto',
-        texture: '/src/assets/textures/callisto.jpg',
+        texture: './textures/callisto.jpg',
         size: 0.38,
         orbitRadius: 4.4,
         orbitSpeed: 0.3
@@ -168,13 +168,13 @@ export const planets: Planet[] = [
     distanceFromSun: '1,43 miljard km',
     diameter: '116.460 km',
     dayLength: '10,7 uur',
-    texture: '/src/assets/textures/saturn.jpg',
-    ringTexture: '/src/assets/textures/saturn-ring.png',
+    texture: './textures/saturn.jpg',
+    ringTexture: './textures/saturn-ring.png',
     moons: [
       {
         id: 'titan',
         name: 'Titan',
-        texture: '/src/assets/textures/titan.webp',
+        texture: './textures/titan.webp',
         size: 0.40,
         orbitRadius: 3.5,
         orbitSpeed: 0.35
@@ -195,7 +195,7 @@ export const planets: Planet[] = [
     distanceFromSun: '2,87 miljard km',
     diameter: '50.724 km',
     dayLength: '17 uur',
-    texture: '/src/assets/textures/uranus.jpg',
+    texture: './textures/uranus.jpg',
     facts: [
       { title: 'Afstand tot de zon', value: '2,87 miljard km' },
       { title: 'Diameter', value: '50.724 km' },
@@ -211,12 +211,12 @@ export const planets: Planet[] = [
     distanceFromSun: '4,50 miljard km',
     diameter: '49.244 km',
     dayLength: '16 uur',
-    texture: '/src/assets/textures/neptune.jpg',
+    texture: './textures/neptune.jpg',
     moons: [
       {
         id: 'triton',
         name: 'Triton',
-        texture: '/src/assets/textures/triton.jpg',
+        texture: './textures/triton.jpg',
         size: 0.21,
         orbitRadius: 2.8,
         orbitSpeed: 0.45

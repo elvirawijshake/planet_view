@@ -25,7 +25,7 @@ function PlanetMesh({ planet }: { planet: Planet }) {
     return paths;
   }, [planet]);
 
-  const loadedTextures = useTexture(texturePaths.length > 0 ? texturePaths : ['/src/assets/textures/earth.jpg']);
+  const loadedTextures = useTexture(texturePaths.length > 0 ? texturePaths : ['./textures/earth.jpg']);
 
   // Map textures to their roles
   const textureMap = useMemo(() => {
