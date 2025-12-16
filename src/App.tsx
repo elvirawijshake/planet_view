@@ -78,9 +78,7 @@ export default function App() {
           </main>
 
           {/* Footer Instructions */}
-          <footer className="py-3 px-4 text-center text-white/50 text-xs">
-            <p>💡 Tip: Sleep de planeet om deze 360° te draaien</p>
-          </footer>
+        
         </>
       ) : (
         <SolarSystemOverview 
