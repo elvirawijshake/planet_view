@@ -1,1 +1,6 @@
 node_modules/
+
+# Macos specific
+# Thumbnails
+._*
+.DS_Store
