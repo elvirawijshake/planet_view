@@ -194,7 +194,7 @@ function SunLight() {
     <>
       <pointLight position={[10, 5, 10]} intensity={2.5} color="#FFF5E0" />
       <pointLight position={[-5, -3, -5]} intensity={0.8} color="#4169E1" />
-      <ambientLight intensity={0.6} />
+      <ambientLight intensity={1.5} />
     </>
   );
 }
@@ -219,7 +219,7 @@ export function PlanetViewer({ planet }: PlanetViewerProps) {
         transition={{ duration: 0.4 }}
         className="relative w-full h-full"
       >
-        <div className="relative w-full h-full bg-gradient-to-br from-gray-800/50 to-gray-900/50 rounded-3xl p-4 backdrop-blur-sm border border-white/10 flex flex-col">
+        <div className="relative w-full h-full bg-gradient-to-br from-gray-800/50 to-gray-900/50 rounded-3xl p-4 backdrop-blur-sm border border-white/10 flex flex-col" Style="background: linear-gradient(20deg, rgba(0,0,0,0.4), rgba(0,0,0,0.8)">
           {/* Drag hint */}
           {showHint && (
             <motion.div

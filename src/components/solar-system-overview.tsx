@@ -291,8 +291,8 @@ export function SolarSystemOverview({ planets, onSelectPlanet }: SolarSystemOver
                       style={{ width: '100%', height: '100%', pointerEvents: 'none', borderRadius: '50%' }}
                       gl={{ alpha: true }}
                     >
-                      <ambientLight intensity={0.3} />
-                      <pointLight position={[5, 3, 5]} intensity={1} />
+                      <ambientLight intensity={1} />
+                      <pointLight position={[5, 3, 5]} intensity={2} />
                       <Suspense fallback={<FallbackSphere color={planet.color} />}>
                         <SmallTexturedPlanet planet={planet} />
                       </Suspense>
@@ -348,7 +348,7 @@ export function SolarSystemOverview({ planets, onSelectPlanet }: SolarSystemOver
               <div className="flex flex-col sm:flex-row items-center gap-4 mb-6">
                 <div className="w-40 h-40 flex-shrink-0 overflow-hidden rounded-full">
                   <Canvas camera={{ position: [0, 0, 3], fov: 45 }} style={{ width: '100%', height: '100%', borderRadius: '50%' }} gl={{ alpha: true }}>
-                    <ambientLight intensity={0.4} />
+                    <ambientLight intensity={1} />
                     <pointLight position={[5, 3, 5]} intensity={1} />
                     <Suspense fallback={<FallbackSphere color={zoomedPlanet.color} />}>
                       <MiniPlanetMesh planet={zoomedPlanet} />
